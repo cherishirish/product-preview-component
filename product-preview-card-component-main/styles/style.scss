@@ -1,0 +1,133 @@
+ @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+
+
+$darkcyan: hsl(158, 36%, 37%);
+$cream: hsl(30, 38%, 92%);
+$vdarkblue:hsl(212, 21%, 14%);
+$dgrayblue:hsl(228, 12%, 48%);
+$white: hsl(0, 0%, 100%);
+$headerFont: 'Fraunces', serif;
+$copyFont: 'Montserrat', sans-serif;
+
+
+// *{
+//     margin:0;
+//     padding: 0;
+// }
+// body{
+//     background-color: $cream;
+//     font-family: $copyFont;
+//     font-size: 16px;
+//     display: flex;
+//     justify-content: center;
+//     height: 100vh;
+// }
+
+// #wrapper {
+//     background-color: $white;
+//     border-radius: 10px;
+//     width: 600px;
+//     height: 445px;
+//     display: flex;
+//     flex-direction: row;
+//     align-self: center;
+// }
+
+// #main-image {
+//     width: 50%;
+//     border-radius: 10px 0 0 10px;
+//     background-image: url(images/image-product-desktop.jpg);
+//     background-size: cover;
+// }
+
+// #main-content {
+//     width: 40%;
+//     border-radius: 0 10px 10px 0;
+//     padding: 30px;
+// }
+
+// #main-content p:first-of-type{
+//     padding-bottom: 20px;
+//     text-transform: uppercase;
+//     font-size: .8em;
+// }
+
+// #main-content h1 {
+//     font-family: $headerFont;
+//     font-weight: 700;
+//     padding-bottom: 30px;
+//     line-height: 30px;
+//     color: $vdarkblue;
+// }
+
+// #copy{
+//     font-size: .85em;
+//     line-height: 1.5em;
+//     padding-bottom: 30px;
+//     color: $dgrayblue;
+// }
+
+// #prices {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: flex-start;
+//     align-items: center;
+//     font-family: $headerFont;
+//     margin-bottom: 30px;
+// }
+
+// #new-price {
+//     color: $darkcyan;
+//     font-size: 2em;
+//     margin-right: 20px;
+// }
+// #regular-price {
+//     color: $dgrayblue;
+//     font-size: .8em;
+//     text-decoration: line-through;
+// }
+
+// #addtoCart {
+//     display: flex;
+//     flex-direction: row;
+//     align-content: center;
+// }
+
+// button {
+//     background-color: $darkcyan;
+//     border: none;
+//     border-radius: 10px;
+//     padding: 15px;
+//     cursor: pointer;
+//     color: $white;
+//     width: 100%;
+//     font-weight: 700;
+//     text-align: center;
+// }
+
+// button>img {
+//     padding-right: 10px;
+// }
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    #body {
+        display: flex;
+        flex-direction: column;
+    }
+    #wrapper {
+        width: ;
+    }
+
+    #main-image {
+        height: 220px;
+        background-color: red;
+        background-image: url(images/image-product-mobile.jpg);
+        background-size: cover;
+    }
+    #main-content {
+        width:100%;
+    }
+
